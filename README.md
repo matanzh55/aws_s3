@@ -66,7 +66,6 @@ S3 Static Website
           Select the IAM user, group, or role to which you want to attach the policy.
 
    c. Test Access:
-   
           Sign in with the IAM user or assume the role associated with the policy.
           Test access to the S3 bucket based on the permissions granted by the policy.
 
