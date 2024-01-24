@@ -39,7 +39,7 @@ S3 Static Website
      now you can enter the website through the bucket website endpoint url.
 
 4. Security Best Practices:
-     a.Configure Bucket Policy:
+     a. Configure Bucket Policy:
           Create a bucket policy that restricts access to the S3 bucket. 
           The "policy.json" is an example of a bucket policy that grants read-only access to everyone.
           Navigate to your S3 bucket in the AWS Management Console.
@@ -48,10 +48,9 @@ S3 Static Website
           Click on "Edit."
           Paste the bucket policy into the editor and click "Save changes."
 
-     b.IAM Policies :
+     b. IAM Policies :
           If you want more fine-grained control over access, you can use IAM policies.
           To set up an IAM policy in the AWS Management Console for accessing an S3 bucket, follow these steps:
-          
           In the "Find Services" search bar, type "IAM" and select the IAM service.
           In the IAM console, select "Policies" from the left navigation pane.
           Click the "Create policy" button.
@@ -66,7 +65,7 @@ S3 Static Website
           In the "Policy actions" menu, choose "Attach policy."
           Select the IAM user, group, or role to which you want to attach the policy.
 
-   c.Test Access:
+   c. Test Access:
    
           Sign in with the IAM user or assume the role associated with the policy.
           Test access to the S3 bucket based on the permissions granted by the policy.
